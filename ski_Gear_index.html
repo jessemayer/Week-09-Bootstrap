@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Ski Gear Home Page</title>
+</head>
+<body class="container">
+<!-- Nav Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!-- brand name -->
+        <a class="navbar-brand" href="ski_Gear_index.html">Snow Springs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/create_user_ski_gear_index.html">Create Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <!-- Skiing Dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Ski Gear</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Skis</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Mis. Gear</a>
+                </div>
+                <!-- SnowBoard Dropdown -->
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">SnowBoard Gear</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Boards</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Mis. Gear</a>
+                </div>
+            </li>
+            <!-- BackCountry Dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">BackCountry</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Boards/Skis</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Mis. Gear</a>
+                    <a class="dropdown-item" href="#">Skins</a>
+                </div>
+            </li>
+            <!-- Xc Dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">XC Gear</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Traditional</a>
+                    <a class="dropdown-item" href="#">Skate Skis</a>
+                </div>
+            </li>
+
+
+            
+        </ul>
+
+    </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" >
+            <img  src="/Assets/alain-wong-f-oxr0Lk5EU-unsplash.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+    <table class="table">Snow Report
+        <thead>
+            <tr>
+                <th scope="col">Mountain</th>
+                <th scope="col">Last 24hrs</th>
+                <th scope="col">Last 48hrs</th>
+                <th scope="col">Last 72hrs</th>
+                <th scope="col">Last 7 days</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Lost Trail Powder Mountain</th>
+                <td>4"</td>
+                <td>24"</td>
+                <td>30"</td>
+                <td>66"</td>
+            </tr>
+            <tr>
+                <th scope="row">SnowBowl</th>
+                <td>4"</td>
+                <td>7"</td>
+                <td>18"</td>
+                <td>29"</td>
+            </tr>
+            <tr>
+                <th scope="row">Discovery Ski Resort</th>
+                <td>3"</td>
+                <td>4"</td>
+                <td>30"</td>
+                <td>37"</td>
+            </tr>
+            <tr>
+                <th scope="row">Lookout Ski Pass</th>
+                <td>4"</td>
+                <td>12"</td>
+                <td>22"</td>
+                <td>40"</td>
+            </tr>
+            <tr>
+                <th scope="row">Whitefish Mountain</th>
+                <td>1"</td>
+                <td>4"</td>
+                <td>10"</td>
+                <td>33"</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <!-- bootstrap and jquery -->
+            <script src="/node_modules/jquery/dist/jquery.js"></script>
+            <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </div>
+    
+</body>
+</html>

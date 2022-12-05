@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    <title>Ski Gear Home Page</title>
+</head>
+<body class="container">
+<!-- Nav Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!-- brand name -->
+        <a class="navbar-brand" href="ski_Gear_index.html">Snow Springs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/create_user_ski_gear_index.html">Create Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <!-- Skiing Dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Ski Gear</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Skis</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Mis. Gear</a>
+                </div>
+                <!-- SnowBoard Dropdown -->
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">SnowBoard Gear</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Boards</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Mis. Gear</a>
+                </div>
+            </li>
+            <!-- BackCountry Dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">BackCountry</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Boards/Skis</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Mis. Gear</a>
+                    <a class="dropdown-item" href="#">Skins</a>
+                </div>
+            </li>
+            <!-- Xc Dropdown -->
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">XC Gear</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Boots</a>
+                    <a class="dropdown-item" href="#">Bindings</a>
+                    <a class="dropdown-item" href="#">Traditional</a>
+                    <a class="dropdown-item" href="#">Skate Skis</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+        <div class="row">
+             <div class="col">
+                <div class="mx-auto" style="width: 200px;"><img class="img-thumbnail" src="data:image/png;base64,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"> 
+            <br>
+                    </div>
+                </div>
+            </div>      
+            <div class="container-fluid">
+
+                            <!-- created a form to create a user -->
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="firstName">First Name</label>
+                                <input type ="text" class="form-control" id ="firstName"> <br>
+                                </div>
+                                <div class="col">
+                                    <label for="lastName">Last Name</label> 
+                                    <input type ="text" class="form-control" id = "lastName" > <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email">Email</label> 
+                                    <input type = "text" class="form-control" id ="email"> <br>
+                            
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="userName">User Name</label>     
+                                <input type = "text" class="form-control"  id ="userName"> <br>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col">
+                                    <label for="password">Password</label>
+                                <input type="password" class="form-control"  id ="password"> <br>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+        <div>
+            <!-- bootstrap and jquery -->
+                <script src="/node_modules/jquery/dist/jquery.js"></script>
+                <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        </div>
+        
+</body>
+</html>
